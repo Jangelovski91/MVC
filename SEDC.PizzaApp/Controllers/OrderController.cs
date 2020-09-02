@@ -7,24 +7,20 @@ using SEDC.PizzaApp.Models;
 
 namespace SEDC.PizzaApp.Controllers
 {
-    
-    public class AccordinglyController : Controller
+    public class OrderController : Controller
     {
-        [Route("Orders")]
+        
         public IActionResult Index()
         {
             return View();
         }
+        
         public IActionResult Details(int? id)
         {
-            List<Order> Orders = new List<Order>()
-            {
-                new Order(){OrderNumber = 234, PizzaName = "Diavola"},
-                new Order(){OrderNumber = 456, PizzaName = "Stellato"}
-            };
+            var orders = StaticDB.OrderList;
             if (id != 0)
             {
-                return View();
+                return View(orders);
             }
             return new EmptyResult();
         }

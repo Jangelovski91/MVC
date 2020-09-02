@@ -36,5 +36,5 @@ C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\SEDC.PizzaApp.genrunt
 C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\SEDC.PizzaApp.csproj.CopyComplete
 C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\Index.cshtml.g.cs
 C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\Details.cshtml.g.cs
-C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Accordingly\Index.cshtml.g.cs
-C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Accordingly\Details.cshtml.g.cs
+C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Order\Details.cshtml.g.cs
+C:\Users\Ace\Desktop\SEDC.PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
