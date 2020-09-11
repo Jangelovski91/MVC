@@ -1,0 +1,25 @@
+﻿@model SEDC.PizzaApp.Models.ViewModels.PizzaViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<partial name="~/Views/Shared/PartialViews/_HelloFromPizzaWorld.cshtml" />
+<h2>@ViewData["Title"]</h2>
+
+@if (ViewBag.Pizza.IsOnPromotion = true)
+{
+    <h2>"Pizza Name:"@ViewBag.Pizza.Name</h2>
+    <p>"Price:" @ViewBag.Pizza.Price</p>
+    <p>Pizza Size:" @ViewBag.Pizza.PizzaSize</p>
+    <br />
+
+    <h4>This Pizza is on promotion</h4>
+}
+else
+{
+    <h2>"Pizza Name:"@ViewBag.Pizza.Name</h2>
+    <p>"Price:" @ViewBag.Pizza.Price</p>
+    <p>Pizza Size:" @ViewBag.Pizza.PizzaSize</p>
+    <br />
+}
